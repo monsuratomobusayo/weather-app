@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.4.1/dist/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/axios@1.1.2/dist/axios.min.js"></script>
+    <link rel="stylesheet" href="styles.css"/>
+
+    <title>Document</title>
+</head>
+<body>
+  <h1> JS FORMS</h1>  
+    <div class="container">          
+       <div class="search-form">
+        <form class="search" id="search">
+.            <div class="row">
+              <div class="col-6">
+                <input type="text" placeholder="Type city" class="cityInput" class="city-input shadow-sm" 
+                autocomplete="off" autofocus="on" id="search-city"> </div>
+              <div class="col-3">
+                <input type="submit" 
+                value="Search" id= "search-city"
+                 class="form-control btn btn-primary shadow-sm w-100 "/>
+              </div>
+              <div class="col-3">
+                <button
+                class="btn btn-success w-100"
+                id="location-button">
+            Current
+            </button>
+              </div>
+            </div>
+          </form> 
+          <h2 id="city">
+          Nigeria
+        </h2> 
+            <ul>
+              <li  id ="showDate">
+                    Monday 13:55
+                </li>
+                <li   id="weatherInfo">
+                    Drizzle
+                </li>
+              </ul>            
+          <div class="container">
+          <div class="row">
+           <div class="col">
+           <div class="float-left">
+           <img src="https://ssl.gstatic.com/onebox/weather/64/partly_cloudy.png" alt="Cloudy icon" class="weather-icon float-left">
+          <span class="temperature" id="temperature">  14</span>
+          <span class="celsius-link" id = "celsius-link">°C</span>
+                             
+         </div>
+          </div>
+           <div class="col">
+        <div class= "weather" id="weather">
+                  <ul>
+       <li > Humidity:<span id = "humidity"> 93</span> %<li>
+     <li > Wind:<span id="wind"> 6 km/</span>h </li>
+     
+      </ul>
+             </div>
+                            </div>
+                            </div>
+                                   
+    
+    
+    
+    
+    </div>
+
+
+
+    <script src="apps.js"></script>
+</body>
+</html>
