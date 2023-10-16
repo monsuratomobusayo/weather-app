@@ -1,0 +1,17 @@
+h1{text-align: center;
+}
+h3{font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 15px;
+text-align:right ;}
+
+.search-form {border: 1px Solid #dadde1;
+    padding: 15px;
+    margin: 20px auto;
+    border-radius: 10px;
+    max-width: 600px;}
+    ul{list-style-type: none;
+        text-align: left;}
+        .temperature{font-size: 50px;}
+        .country{font-size: 30px;}
+        .celsius-link{position: relative;
+        top:-32px;}
